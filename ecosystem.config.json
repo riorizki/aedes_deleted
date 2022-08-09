@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "quest_backend",
+      "name": "quest_mqtt",
       "script": "src/app.js",
       "instances": 1,
       "autorestart": true,
