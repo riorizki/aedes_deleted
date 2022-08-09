@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "aedes": "^0.47.0",
-    "websocket-stream": "^5.5.2"
+    "websocket-stream": "^5.5.2",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nanoid": "^3.3.4",
+    "objection": "^3.0.1",
+    "objection-soft-delete": "github:riorizki/objection-soft-delete",
+    "objection-visibility": "^1.2.0"
   }
 }
